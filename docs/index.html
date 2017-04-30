@@ -3,19 +3,21 @@
 <html lang="en-US">
 
 <head>
+<base href="" />
+
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="pingback" href="/blog/xmlrpc.php">
+<link rel="pingback" href="/xmlrpc.php">
 
-<title>OSSDC &#8211; Just another WordPress site</title>
+<title>Open Source Self Driving Car Initiative</title>
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="OSSDC &raquo; Feed" href="/blog/feed/" />
-<link rel="alternate" type="application/rss+xml" title="OSSDC &raquo; Comments Feed" href="/blog/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Open Source Self Driving Car Initiative &raquo; Feed" href="/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Open Source Self Driving Car Initiative &raquo; Comments Feed" href="/comments/feed/" />
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"\/\/mikeeus.github.io\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.4"}};
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/\/wp-includes\/js\/wp-emoji-release.min.js"}};
 			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -32,37 +34,43 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
+<link rel='stylesheet' id='style-hightlight-css'  href='/wp-content/plugins/wp-github/css/prism.css' type='text/css' media='all' />
 <link rel='stylesheet' id='zerif_font-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C400italic%7CMontserrat%3A400%2C700%7CHomemade+Apple&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
-<link rel='stylesheet' id='zerif_font_all-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;subset=latin&#038;ver=4.7.4' type='text/css' media='all' />
-<link rel='stylesheet' id='zerif_bootstrap_style-css'  href='/blog/wp-content/themes/zerif-lite/css/bootstrap.css?ver=4.7.4' type='text/css' media='all' />
-<link rel='stylesheet' id='zerif_fontawesome-css'  href='/blog/wp-content/themes/zerif-lite/css/font-awesome.min.css?ver=v1' type='text/css' media='all' />
-<link rel='stylesheet' id='zerif_style-css'  href='/blog/wp-content/themes/zerif-lite/style.css?ver=v1' type='text/css' media='all' />
-<link rel='stylesheet' id='zerif_responsive_style-css'  href='/blog/wp-content/themes/zerif-lite/css/responsive.css?ver=v1' type='text/css' media='all' />
+<link rel='stylesheet' id='zerif_font_all-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='zerif_bootstrap_style-css'  href='/wp-content/themes/zerif-lite/css/bootstrap.css' type='text/css' media='all' />
+<link rel='stylesheet' id='zerif_fontawesome-css'  href='/wp-content/themes/zerif-lite/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='zerif_style-css'  href='/wp-content/themes/zerif-lite/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='zerif_responsive_style-css'  href='/wp-content/themes/zerif-lite/css/responsive.css' type='text/css' media='all' />
 <!--[if lt IE 9]>
-<link rel='stylesheet' id='zerif_ie_style-css'  href='/blog/wp-content/themes/zerif-lite/css/ie.css?ver=v1' type='text/css' media='all' />
+<link rel='stylesheet' id='zerif_ie_style-css'  href='/wp-content/themes/zerif-lite/css/ie.css' type='text/css' media='all' />
 <![endif]-->
-<script type='text/javascript' src='/blog/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='stylesheet' id='wp-github-css'  href='/wp-content/plugins/wp-github/css/wp-github.css' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js'></script>
 <!--[if lt IE 9]>
-<script type='text/javascript' src='/blog/wp-content/themes/zerif-lite/js/html5.js?ver=4.7.4'></script>
+<script type='text/javascript' src='/wp-content/themes/zerif-lite/js/html5.js'></script>
 <![endif]-->
-<link rel='https://api.w.org/' href='/blog/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/blog/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 4.7.4" />
-<link rel="canonical" href="/blog/" />
-<link rel='shortlink' href='/blog/' />
-<link rel="alternate" type="application/json+oembed" href="/blog/wp-json/oembed/1.0/embed?url=http%3A%2F%2F/blog%2F" />
-<link rel="alternate" type="text/xml+oembed" href="/blog/wp-json/oembed/1.0/embed?url=http%3A%2F%2F/blog%2F&#038;format=xml" />
+<link rel="canonical" href="/" />
+<link rel='shortlink' href='/' />
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2F" />
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2F&#038;format=xml" />
 		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 		<style type="text/css" id="custom-background-css">
-body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04/winding-road-amanda-sandlin2.jpg"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+body.custom-background { background-image: url("/wp-content/uploads/2017/04/winding-road-amanda-sandlin2.jpg"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
 </style>
+<link rel="icon" href="/wp-content/uploads/2017/04/ossdc-logo-150x150.png" sizes="32x32" />
+<link rel="icon" href="/wp-content/uploads/2017/04/ossdc-logo.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="/wp-content/uploads/2017/04/ossdc-logo.png" />
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2017/04/ossdc-logo.png" />
 
 </head>
 
 
-	<body class="home page-template-default page page-id-6 custom-background" >
+	<body class="home page-template-default page page-id-4 custom-background wp-custom-logo" >
 
 
 
@@ -95,36 +103,22 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 
 					<div class="navbar-brand">
 
-													<div class="site-title-tagline-wrapper">
-								<h1 class="site-title">
-									<a href="/blog/">
-										OSSDC									</a>
-								</h1>
-
-								
-									<p class="site-description">
-
-										Just another WordPress site
-									</p> <!-- /.site-description -->
-
-								
-							</div> <!-- /.site-title-tagline-wrapper -->
-
-						
+						<a href="/" class="custom-logo-link" rel="home" itemprop="url"><img width="166" height="166" src="/wp-content/uploads/2017/04/ossdc-logo.png" class="custom-logo" alt="" itemprop="logo" srcset="/wp-content/uploads/2017/04/ossdc-logo.png 166w, /wp-content/uploads/2017/04/ossdc-logo-150x150.png 150w" sizes="(max-width: 166px) 100vw, 166px" /></a>
 					</div> <!-- /.navbar-brand -->
 
 				</div> <!-- /.navbar-header -->
 
 				<nav class="navbar-collapse bs-navbar-collapse collapse" id="site-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 		<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
-		<ul id="menu-primary-menu" class="nav navbar-nav navbar-right responsive-nav main-nav-list"><li id="menu-item-11" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-11"><a href="/blog/">Home</a></li>
-<li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12"><a href="/blog/blog/">Blog</a></li>
+		<ul class="nav navbar-nav navbar-right responsive-nav main-nav-list"><li class="page_item page-item-5"><a href="/blog/">Blog</a></li>
+<li class="page_item page-item-4 current_page_item"><a href="/">Home page</a></li>
+<li class="page_item page-item-2"><a href="/sample-page/">Sample Page</a></li>
 </ul>	</nav>
 	
 		</div> <!-- /.container -->
 
 	</div> <!-- /#main-nav -->
-	<!-- / END TOP BAR --><div class="home-header-wrap"><div class="header-content-wrap"><div class="container"><h1 class="intro-text">Open Source Self Driving Car Initiative</h1></div></div><!-- .header-content-wrap --><div class="clear"></div></div>
+	<!-- / END TOP BAR --><div class="home-header-wrap"><div class="header-content-wrap"><div class="container"><h1 class="intro-text">Open Source Self Driving Car initiative</h1></div></div><!-- .header-content-wrap --><div class="clear"></div></div>
 </header> <!-- / END HOME SECTION  -->
 <div id="content" class="site-content">
 
@@ -153,7 +147,7 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 			                    Go to			                    PARALLAX EFFECT		                    </span>
 								
 							<i class="pixeden"
-							   style="background:url(/blog/wp-content/themes/zerif-lite/images/parallax.png) no-repeat center;width:100%; height:100%;"></i>
+							   style="background:url(/wp-content/themes/zerif-lite/images/parallax.png) no-repeat center;width:100%; height:100%;"></i>
 						</a>
 						
 
@@ -172,7 +166,7 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 			                    Go to			                    WOOCOMMERCE		                    </span>
 								
 							<i class="pixeden"
-							   style="background:url(/blog/wp-content/themes/zerif-lite/images/woo.png) no-repeat center;width:100%; height:100%;"></i>
+							   style="background:url(/wp-content/themes/zerif-lite/images/woo.png) no-repeat center;width:100%; height:100%;"></i>
 						</a>
 						
 
@@ -191,7 +185,7 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 			                    Go to			                    CUSTOM CONTENT BLOCKS		                    </span>
 								
 							<i class="pixeden"
-							   style="background:url(/blog/wp-content/themes/zerif-lite/images/ccc.png) no-repeat center;width:100%; height:100%;"></i>
+							   style="background:url(/wp-content/themes/zerif-lite/images/ccc.png) no-repeat center;width:100%; height:100%;"></i>
 						</a>
 						
 
@@ -210,7 +204,7 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 			                    Go to			                    GO PRO FOR MORE FEATURES		                    </span>
 								
 							<i class="pixeden"
-							   style="background:url(/blog/wp-content/themes/zerif-lite/images/ti-logo.png) no-repeat center;width:100%; height:100%;"></i>
+							   style="background:url(/wp-content/themes/zerif-lite/images/ti-logo.png) no-repeat center;width:100%; height:100%;"></i>
 						</a>
 						
 
@@ -254,23 +248,23 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 	<!-- CLIENTS -->
 	<div class="our-clients"></div><div class="client-list"><div data-scrollreveal="enter right move 60px after 0.00s over 2.5s"><span id="zerif_clients-widget-1">
 			<a href="#">
-				<img src="/blog/wp-content/themes/zerif-lite/images/clients1.png" alt="Client">			</a>
+				<img src="/wp-content/themes/zerif-lite/images/clients1.png" alt="Client">			</a>
 
 			</span><span id="zerif_clients-widget-2">
 			<a href="#">
-				<img src="/blog/wp-content/themes/zerif-lite/images/clients2.png" alt="Client">			</a>
+				<img src="/wp-content/themes/zerif-lite/images/clients2.png" alt="Client">			</a>
 
 			</span><span id="zerif_clients-widget-3">
 			<a href="#">
-				<img src="/blog/wp-content/themes/zerif-lite/images/clients3.png" alt="Client">			</a>
+				<img src="/wp-content/themes/zerif-lite/images/clients3.png" alt="Client">			</a>
 
 			</span><span id="zerif_clients-widget-4">
 			<a href="#">
-				<img src="/blog/wp-content/themes/zerif-lite/images/clients4.png" alt="Client">			</a>
+				<img src="/wp-content/themes/zerif-lite/images/clients4.png" alt="Client">			</a>
 
 			</span><span id="zerif_clients-widget-5">
 			<a href="#">
-				<img src="/blog/wp-content/themes/zerif-lite/images/clients5.png" alt="Client">			</a>
+				<img src="/wp-content/themes/zerif-lite/images/clients5.png" alt="Client">			</a>
 
 			</span></div></div> 
 	</div> <!-- / END CONTAINER -->
@@ -287,7 +281,7 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 
 						<figure class="profile-pic">
 
-							<img src="/blog/wp-content/themes/zerif-lite/images/team1.png" alt=""/>
+							<img src="/wp-content/themes/zerif-lite/images/team1.png" alt=""/>
 
 						</figure>
 						
@@ -371,7 +365,7 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 
 						<figure class="profile-pic">
 
-							<img src="/blog/wp-content/themes/zerif-lite/images/team2.png" alt=""/>
+							<img src="/wp-content/themes/zerif-lite/images/team2.png" alt=""/>
 
 						</figure>
 						
@@ -455,7 +449,7 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 
 						<figure class="profile-pic">
 
-							<img src="/blog/wp-content/themes/zerif-lite/images/team3.png" alt=""/>
+							<img src="/wp-content/themes/zerif-lite/images/team3.png" alt=""/>
 
 						</figure>
 						
@@ -539,7 +533,7 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 
 						<figure class="profile-pic">
 
-							<img src="/blog/wp-content/themes/zerif-lite/images/team4.png" alt=""/>
+							<img src="/wp-content/themes/zerif-lite/images/team4.png" alt=""/>
 
 						</figure>
 						
@@ -614,7 +608,7 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 
 			</div>
 
-			</span></div> </div></section><section class="testimonial" id="testimonials"><div class="container"><div class="section-header"></div><div class="row" data-scrollreveal="enter right after 0s over 1s"><div class="col-md-12"><div id="client-feedbacks" class="owl-carousel owl-theme"><span id="zerif_testim-widget-1" class="feedback-box">
+			</span></div> </div></section><section class="testimonial" id="testimonials"><div class="container"><div class="section-header"></div><div class="row" data-scrollreveal="enter right after 0s over 1s"><div class="col-md-12"><div id="client-feedbacks" class="owl-carousel owl-theme  "><span id="zerif_testim-widget-1" class="feedback-box">
 
 			<!-- MESSAGE OF THE CLIENT -->
 
@@ -639,7 +633,7 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 					
 				</div>
 
-				<div class="client-image hidden-xs"><img src="/blog/wp-content/themes/zerif-lite/images/testimonial1.jpg" alt="" /></div>
+				<div class="client-image hidden-xs"><img src="/wp-content/themes/zerif-lite/images/testimonial1.jpg" alt="" /></div>
 			</div>
 			<!-- / END CLIENT INFORMATION-->
 
@@ -669,7 +663,7 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 					
 				</div>
 
-				<div class="client-image hidden-xs"><img src="/blog/wp-content/themes/zerif-lite/images/testimonial2.jpg" alt="" /></div>
+				<div class="client-image hidden-xs"><img src="/wp-content/themes/zerif-lite/images/testimonial2.jpg" alt="" /></div>
 			</div>
 			<!-- / END CLIENT INFORMATION-->
 
@@ -699,12 +693,13 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 					
 				</div>
 
-				<div class="client-image hidden-xs"><img src="/blog/wp-content/themes/zerif-lite/images/testimonial3.jpg" alt="" /></div>
+				<div class="client-image hidden-xs"><img src="/wp-content/themes/zerif-lite/images/testimonial3.jpg" alt="" /></div>
 			</div>
 			<!-- / END CLIENT INFORMATION-->
 
 
-			</span></div></div></div></div></section><section class="latest-news" id="latestnews"><div class="container"><div class="section-header"><h2 class="dark-text">Latest news</h2></div><!-- END .section-header --><div class="clear"></div><div id="carousel-homepage-latestnews" class="carousel slide" data-ride="carousel"><div class="carousel-inner" role="listbox"><div class="item active" role="option"><div class="col-sm-3 latestnews-box"><div class="latestnews-img"><a class="latestnews-img-a" href="/blog/2017/04/27/hello-world/" title="Hello world!"><img src="/blog/wp-content/themes/zerif-lite/images/blank-latestposts.png" alt="Hello world!" /></a></div><div class="latesnews-content"><h3 class="latestnews-title"><a href="/blog/2017/04/27/hello-world/" title="Hello world!">Hello world!</a></h3><p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+			</span></div></div></div></div></section><section class="latest-news" id="latestnews"><div class="container"><div class="section-header"><h2 class="dark-text">Latest news</h2></div><!-- END .section-header --><div class="clear"></div><div id="carousel-homepage-latestnews" class="carousel slide" data-ride="carousel"><div class="carousel-inner" role="listbox"><div class="item active" role="option"><div class="col-sm-3 latestnews-box"><div class="latestnews-img"><a class="latestnews-img-a" href="/2017/04/29/a-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones/" title="A new OSSDC.org MVP to build a smart dash camera using Android phones"><img src="/wp-content/themes/zerif-lite/images/blank-latestposts.png" alt="A new OSSDC.org MVP to build a smart dash camera using Android phones" /></a></div><div class="latesnews-content"><h3 class="latestnews-title"><a href="/2017/04/29/a-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones/" title="A new OSSDC.org MVP to build a smart dash camera using Android phones">A new OSSDC.org MVP to build a smart dash camera using Android phones</a></h3><p>The idea is to create an Android app that can be used to easily collect datasets for&nbsp;OSSDC.org&nbsp;development/testing, also test in realtime&nbsp;simple ADAS functions. We will develop this app as part of our MVP 4 project: https://github.com/OSSDC/OSSDC-DashCamera On powerful phones like this we can run pretty advanced algorithms, you can get it for less then $200 <a href="/2017/04/29/a-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones/" rel="nofollow"><span class="sr-only">Read more about A new OSSDC.org MVP to build a smart dash camera using Android phones</span>[&hellip;]</a></p>
+</div></div><!-- .latestnews-box"> --><div class="col-sm-3 latestnews-box"><div class="latestnews-img"><a class="latestnews-img-a" href="/2017/04/26/hello-world/" title="Hello world!"><img src="/wp-content/themes/zerif-lite/images/blank-latestposts.png" alt="Hello world!" /></a></div><div class="latesnews-content"><h3 class="latestnews-title"><a href="/2017/04/26/hello-world/" title="Hello world!">Hello world!</a></h3><p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing! &nbsp; &nbsp; Comments</p>
 </div></div><!-- .latestnews-box"> --><div class="clear"></div></div></div><!-- .carousel-inner --><a class="left carousel-control" href="#carousel-homepage-latestnews" role="button" data-slide="prev">
 						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 						<span class="sr-only">Previous</span>
@@ -733,7 +728,7 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 	<div class="container">
 
 		
-		<div class="col-md-12 copyright"><div class="zerif-copyright-box"><a class="zerif-copyright" rel="nofollow">Zerif Lite </a>developed by <a class="zerif-copyright" href="https://themeisle.com/"  target="_blank" rel="nofollow"> ThemeIsle</a></div></div>			</div> <!-- / END CONTAINER -->
+		<div class="col-md-12 copyright"><div class="zerif-copyright-box"><a class="zerif-copyright" rel="nofollow">Zerif Lite </a>developed by <a class="zerif-copyright" href="https://themeisle.com"  target="_blank" rel="nofollow"> ThemeIsle</a></div></div>			</div> <!-- / END CONTAINER -->
 
 </footer> <!-- / END FOOOTER  -->
 
@@ -742,14 +737,21 @@ body.custom-background { background-image: url("/blog/wp-content/uploads/2017/04
 </div><!-- .mobile-bg-fix-wrap -->
 
 
-<script type='text/javascript' src='/blog/wp-content/themes/zerif-lite/js/bootstrap.min.js?ver=20120206'></script>
-<script type='text/javascript' src='/blog/wp-content/themes/zerif-lite/js/jquery.knob.js?ver=20120206'></script>
-<script type='text/javascript' src='/blog/wp-content/themes/zerif-lite/js/smoothscroll.js?ver=20120206'></script>
-<script type='text/javascript' src='/blog/wp-content/themes/zerif-lite/js/scrollReveal.js?ver=20120206'></script>
-<script type='text/javascript' src='/blog/wp-content/themes/zerif-lite/js/zerif.js?ver=20120206'></script>
-<script type='text/javascript' src='/blog/wp-includes/js/wp-embed.min.js?ver=4.7.4'></script>
-
+<script type='text/javascript' src='/wp-content/plugins/wp-github//js/prism.js'></script>
+<script type='text/javascript' src='/wp-content/themes/zerif-lite/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='/wp-content/themes/zerif-lite/js/jquery.knob.js'></script>
+<script type='text/javascript' src='/wp-content/themes/zerif-lite/js/smoothscroll.js'></script>
+<script type='text/javascript' src='/wp-content/themes/zerif-lite/js/scrollReveal.js'></script>
+<script type='text/javascript' src='/wp-content/themes/zerif-lite/js/zerif.js'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js'></script>
+<script>jQuery(function(){
+		var form = jQuery('form'),
+			code = jQuery('code', form),
+			highlightCode = function() { Prism.highlightElement(code); };
+		});
+	</script>
 
 </body>
 
 </html>
+<!--Generated by Endurance Page Cache-->

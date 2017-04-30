@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Open Source Self Driving Car Initiative</title>
+	<atom:link href="http://ossdc.mikias.net/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ossdc.mikias.net</link>
+	<description></description>
+	<lastBuildDate>Sat, 29 Apr 2017 20:32:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.4</generator>
+
+<image>
+	<url>http://ossdc.mikias.net/wp-content/uploads/2017/04/ossdc-logo-150x150.png</url>
+	<title>Open Source Self Driving Car Initiative</title>
+	<link>http://ossdc.mikias.net</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>A new OSSDC.org MVP to build a smart dash camera using Android phones</title>
+		<link>http://ossdc.mikias.net/2017/04/29/a-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones/</link>
+		<comments>http://ossdc.mikias.net/2017/04/29/a-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones/#respond</comments>
+		<pubDate>Sat, 29 Apr 2017 19:45:00 +0000</pubDate>
+		<dc:creator><![CDATA[Marius Slavescu]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://ossdc.mikias.net/?p=18</guid>
+		<description><![CDATA[The idea is to create an Android app that can be used to easily collect datasets for&#160;OSSDC.org&#160;development/testing, also test in realtime&#160;simple ADAS functions. We will develop this app as part of our MVP 4 project: https://github.com/OSSDC/OSSDC-DashCamera On powerful phones like this we can run pretty advanced algorithms, you can get it for less then $200 <a href="http://ossdc.mikias.net/2017/04/29/a-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones/" rel="nofollow"><span class="sr-only">Read more about A new OSSDC.org MVP to build a smart dash camera using Android phones</span>[&#8230;]</a>]]></description>
+				<content:encoded><![CDATA[<p>The idea is to create an Android app that can be used to easily collect datasets for&nbsp;<a href="http://OSSDC.org">OSSDC.org</a>&nbsp;development/testing, also test in realtime&nbsp;simple ADAS functions.</p>
+<p>We will develop this app as part of our MVP 4 project:</p>
+<p><a href="https://github.com/OSSDC/OSSDC-DashCamera">https://github.com/OSSDC/OSSDC-DashCamera</a></p>
+<p><span style="line-height: 24px; font-size: 16px;">On powerful phones like this we can run pretty advanced algorithms, you can get it for less then $200 USD, has a great camera (no OIS though), IMU sensors and flagship Snapdragon 820 CPU/GPU:</span></p>
+<p><a href="http://m.gsmarena.com/leeco_le_max_2-8051.php">http://m.gsmarena.com/leeco_le_max_2-8051.php</a></p>
+<p><span style="line-height: 24px; font-size: 16px;">I got exactly this model:</span></p>
+<p><a href="http://m.geekbuying.com/item/LeTV-LeEco-Le-Max-2-X829-4GB-64GB-Smartphone---Gray-376308.html">http://m.geekbuying.com/item/LeTV-LeEco-Le-Max-2-X829-4GB-64GB-Smartphone&#8212;Gray-376308.html</a></p>
+<p><span style="line-height: 24px; font-size: 16px;">I forked several Android related projects, in https://github.com/OSSDC, for OBD2 integration, would be good to see how we pull them into a unified app, based on VideoSensors.</span></p>
+<p>Currently I use Torque and OpenCamera (because I can control focus, I&#8217;ll switch back to VideoSensors when we have that feature there) to collect datasets, but we need a simple setup/app to do this.</p>
+<p>Initially we should extend this project to add focus control, better exposure, and OBD2 Bluetooth collection integration:&nbsp;</p>
+<p><a href="https://github.com/OSSDC/VideoSensors">https://github.com/OSSDC/VideoSensors</a></p>
+<p>Then integrate something like:</p>
+<p><a href="https://github.com/OSSDC/android-robocar">https://github.com/OSSDC/android-robocar</a></p>
+<p><a href="https://twitter.com/GTARobotics/status/855952341627006976">https://twitter.com/GTARobotics/status/855952341627006976</a></p>
+<p>More integration ideas here, these could be used for (see OSSDC Slack) #toy_sdc #mid_size_sdc also:</p>
+<p><a href="https://platis.solutions/blog/2015/06/29/worlds-first-android-autonomous-vehicle/">https://platis.solutions/blog/2015/06/29/worlds-first-android-autonomous-vehicle/</a></p>
+<p>Also people and car detection like in Tensorflow Android demo:</p>
+<p><a href="https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android">https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android</a></p>
+<p>Join our efforts in Open Source Self Driving Car Initiative at:</p>
+<p><a href="http://OSSDC.org">http://OSSDC.org</a></p>
+<p>Follow me on Twitter for more up to date info at&nbsp;<a href="https://mobile.twitter.com/gtarobotics" style="font-size: 16px; line-height: 24px;">@gtarobotics</a></p>
+<p>To comment on this article go to:</p>
+<p><a href="https://github.com/OSSDC/blog.ossdc.org/issues/2">https://github.com/OSSDC/blog.ossdc.org/issues/2</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://ossdc.mikias.net/2017/04/29/a-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Hello world!</title>
+		<link>http://ossdc.mikias.net/2017/04/26/hello-world/</link>
+		<comments>http://ossdc.mikias.net/2017/04/26/hello-world/#comments</comments>
+		<pubDate>Wed, 26 Apr 2017 16:49:39 +0000</pubDate>
+		<dc:creator><![CDATA[Marius Slavescu]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://ossdc.mikias.net/?p=1</guid>
+		<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing! &#160; &#160; Comments]]></description>
+				<content:encoded><![CDATA[<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Comments</p>
+<div class="wp-github wpg-issue"><span class="wp-github-state open">open</span><span class="wp-github-nb">#1</span><a target="_blank" href="https://github.com/OSSDC/blog.ossdc.org/issues/1" title="Blog Post (2017-04-26): Hello World"> Blog Post (2017-04-26): Hello World</a></div>
+]]></content:encoded>
+			<wfw:commentRss>http://ossdc.mikias.net/2017/04/26/hello-world/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
