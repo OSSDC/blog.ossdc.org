@@ -705,19 +705,19 @@ msgid "Meta"
 msgstr ""
 
 #: inc/customizer.php:40
-msgid "Check out the <a href=\"https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> for full control over the frontpage SECTIONS ORDER and the COLOR SCHEME!"
+msgid "Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> for full control over the frontpage SECTIONS ORDER and the COLOR SCHEME!"
 msgstr ""
 
 #: inc/customizer.php:48
-msgid "Check out the <a href=\"https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a nice looking background video!"
+msgid "Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a nice looking background video!"
 msgstr ""
 
 #: inc/customizer.php:56
-msgid "Check out the <a href=\"https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a google maps section !"
+msgid "Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a google maps section !"
 msgstr ""
 
 #: inc/customizer.php:64
-msgid "Check out the <a href=\"https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a pricing section !"
+msgid "Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a pricing section !"
 msgstr ""
 
 #: inc/customizer.php:78

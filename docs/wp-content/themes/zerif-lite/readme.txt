@@ -17,7 +17,7 @@ Note: The custom background only applies to the blog posts index.
 Unless otherwise specified, all the theme files, scripts and images are licensed under GNU General Public License.
 The exceptions to this license are as follows:
 
-* Bootstrap v3.1.1 (https://getbootstrap.com)
+* Bootstrap v3.1.1 (http://getbootstrap.com)
     Copyright 2011-2014 Twitter, Inc.
     Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 
@@ -26,12 +26,12 @@ The exceptions to this license are as follows:
     Under MIT and GPL licenses.
 
 * jquery.scrollTo.js
-    Copyright (c) 2007-2013 Ariel Flesler - aflesler<a>gmail<d>com | https://flesler.blogspot.com
+    Copyright (c) 2007-2013 Ariel Flesler - aflesler<a>gmail<d>com | http://flesler.blogspot.com
     Dual licensed under MIT and GPL.
 
 * scrollReveal.js
     Copyright (C) 2014  https://twitter.com/julianlloyd
-    Licensed under the MIT license(https://www.opensource.org/licenses/mit-license.php).
+    Licensed under the MIT license(http://www.opensource.org/licenses/mit-license.php).
 
 * Upsell section for the customizer
     Copyright (C) 2016 Justin Tadlock. https://github.com/justintadlock/trt-customizer-pro
@@ -39,7 +39,7 @@ The exceptions to this license are as follows:
 
 * Font Awesome
     License: SIL OFL 1.1
-    URL: https://scripts.sil.org/OFL
+    URL: http://scripts.sil.org/OFL
 
 * html5.js
     Copyright (c) 2014 Alexander Farkas (aFarkas).
@@ -48,19 +48,19 @@ The exceptions to this license are as follows:
 
 * parallax.js
     Copyright Matthew Wagerfield (@wagerfield).
-    Licensed under the MIT license (https://www.opensource.org/licenses/mit-license.php).
+    Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php).
 
 * respond.min.js
     Copyright 2014 Scott Jehl
     Licensed under MIT
-    https://j.mp/respondjs
+    http://j.mp/respondjs
 
 * smoothscroll.js
-    Licensed under the terms of the MIT license (https://www.opensource.org/licenses/mit-license.php).
+    Licensed under the terms of the MIT license (http://www.opensource.org/licenses/mit-license.php).
 
 * Images	 
 	 
-	License: All unsplash.com images are licensed under the terms of the Creative Commons Zero, https://creativecommons.org/publicdomain/zero/1.0/
+	License: All unsplash.com images are licensed under the terms of the Creative Commons Zero, http://creativecommons.org/publicdomain/zero/1.0/
 
 	 	 * images/background1.jpg
           	Source: https://unsplash.com/photos/d19by2PLaPc

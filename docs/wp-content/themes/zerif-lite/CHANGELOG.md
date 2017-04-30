@@ -1,179 +1,99 @@
 
-
-### 1.8.5.18 - 27/04/2017
-
-**Changes:** 
-
-- Development
-
-
-### 1.8.5.17 - 25/04/2017
-
-**Changes:** 
-
-- Fixed small CSS alignment issues with WooCommerce 3.0.0
-
-- Added Install and Activate buttons in Recommended actions and plugins for better use
-
-
-### 2.0.5 - 05/01/2017
-
-**Changes:** 
-
-- Fixed fatal error issues with Themeisle Companion plugin installed
-
-- Reorganized customizer upsells
-
-- Added hooks and filters for use in child themes
-
-- Removed doubled hook trigers from latest news section
-
-
-### 2.0.4 - 19/10/2016
-
-**Changes:** 
-
-- Fixed for sections with widgets not appearing anymore after the hide button is selected for each section
-
-- Fixed testimonials default widgets style
-
-
-### 2.0.2 - 11/10/2016
-
-**Changes:** 
-
-- Fixed issue with view pro button layout
-
-
-### 2.0.1 - 11/10/2016
-
-**Changes:** 
-
-- Improved user experience by using Selective Refresh for widgets.
-
-- Improved compatibility with Max Mega Menu plugin for mobile
-
-- Update Font Awesome to the latest version
-
-- Improved Customizer layout
-
-- Improved accessibility options
-
-- Fixed issue with media image uploader
-
-
-### 2.0.0 - 14/09/2016
-
-**Changes:** 
-
-- Updated license
-
-
-### 1.8.5.0 - 13/09/2016
-
-**Changes:** 
-
-- Added padding to image captions
-
-- Added dropdown icons to sub-menus
-
-- Fixed issue with Yoast navigation
-
-- Fixed issue with vertical line on Samsung Galaxy S6
-
-- Update tags
-
-- Improved the blockquote design
-
-- Fixed issue with Jetpacks Photon module
-
-
-### 1.8.4.9 - 30/08/2016
-
-**Changes:** 
-
-- Use core function for archive title and description
-
-- Remove wp_title backward compatibility
-
-- Fixed issue with background image when using a child theme
-
-- Redo upsell section using Customizer API
-
-
-### 1.8.4.8 - 29/08/2016
-
-**Changes:** 
-
-- NEW option to change the Clients area title
-
-- Changed the way locked sections link to pro page
-
-- Add note in readme.txt regarding the background image
-
-
-### 1.8.4.7 - 26/08/2016
-
-**Changes:** 
-
-- Replace back string for template name
-
-
-### 1.8.4.6 - 26/08/2016
-
-**Changes:** 
-
-- Compatibility with SiteOrigin styles
-
-- Added back the quote mark in Testimonials section
-
-- Fixed issue with pagebreaks disappearing on mobile devices
-
-- Fixed issue with navbar links underline after Pirate Forms submission.
-
-- Fixed issue with navigation when the blog template is used as homepage
-
-- Fixed issues with menu on mobile devices
-
-- Improved parts of the code
-
-
-### 1.8.4.5 - 19/07/2016
-
-**Changes:** 
-
-- Added a number of hooks and filter to make child theme creation easier (The whole list can be found in readme.txt)
-
-- Fixed some escaping issues
-
-- Fixed alignment issue on mobile devices in About us section
-
-
-### 1.8.4.4 - 27/05/2016
-
-**Changes:** 
-
-- Small fixes to tgmp
-
-
-### 1.8.4.3 - 27/05/2016
-
-**Changes:** 
-
-
-### 1.8.4.2 - 27/05/2016
-
-**Changes:** 
-
-- Improved sanitization and validation of data
-
-- Updated TGMPA
-
-- Replaced input fields in About us section and Ribbon section to textareas to allow more content
-
-- Fixed issue with author name displaying on pages
-
-- Recommend Adblock Notify and Feedzy RSS plugins on the About Zerif page
+### 1.8.5.18 - 27/04/2017
+**Changes:** 
+- Development
+
+### 1.8.5.17 - 25/04/2017
+**Changes:** 
+- Fixed small CSS alignment issues with WooCommerce 3.0.0
+- Added Install and Activate buttons in Recommended actions and plugins for better use
+
+### 2.0.5 - 05/01/2017
+**Changes:** 
+- Fixed fatal error issues with Themeisle Companion plugin installed
+- Reorganized customizer upsells
+- Added hooks and filters for use in child themes
+- Removed doubled hook trigers from latest news section
+
+### 2.0.4 - 19/10/2016
+**Changes:** 
+- Fixed for sections with widgets not appearing anymore after the hide button is selected for each section
+- Fixed testimonials default widgets style
+
+### 2.0.2 - 11/10/2016
+**Changes:** 
+- Fixed issue with view pro button layout
+
+### 2.0.1 - 11/10/2016
+**Changes:** 
+- Improved user experience by using Selective Refresh for widgets.
+- Improved compatibility with Max Mega Menu plugin for mobile
+- Update Font Awesome to the latest version
+- Improved Customizer layout
+- Improved accessibility options
+- Fixed issue with media image uploader
+
+### 2.0.0 - 14/09/2016
+**Changes:** 
+- Updated license
+
+### 1.8.5.0 - 13/09/2016
+**Changes:** 
+- Added padding to image captions
+- Added dropdown icons to sub-menus
+- Fixed issue with Yoast navigation
+- Fixed issue with vertical line on Samsung Galaxy S6
+- Update tags
+- Improved the blockquote design
+- Fixed issue with Jetpacks Photon module
+
+### 1.8.4.9 - 30/08/2016
+**Changes:** 
+- Use core function for archive title and description
+- Remove wp_title backward compatibility
+- Fixed issue with background image when using a child theme
+- Redo upsell section using Customizer API
+
+### 1.8.4.8 - 29/08/2016
+**Changes:** 
+- NEW option to change the Clients area title
+- Changed the way locked sections link to pro page
+- Add note in readme.txt regarding the background image
+
+### 1.8.4.7 - 26/08/2016
+**Changes:** 
+- Replace back string for template name
+
+### 1.8.4.6 - 26/08/2016
+**Changes:** 
+- Compatibility with SiteOrigin styles
+- Added back the quote mark in Testimonials section
+- Fixed issue with pagebreaks disappearing on mobile devices
+- Fixed issue with navbar links underline after Pirate Forms submission.
+- Fixed issue with navigation when the blog template is used as homepage
+- Fixed issues with menu on mobile devices
+- Improved parts of the code
+
+### 1.8.4.5 - 19/07/2016
+**Changes:** 
+- Added a number of hooks and filter to make child theme creation easier (The whole list can be found in readme.txt)
+- Fixed some escaping issues
+- Fixed alignment issue on mobile devices in About us section
+
+### 1.8.4.4 - 27/05/2016
+**Changes:** 
+- Small fixes to tgmp
+
+### 1.8.4.3 - 27/05/2016
+**Changes:** 
+
+### 1.8.4.2 - 27/05/2016
+**Changes:** 
+- Improved sanitization and validation of data
+- Updated TGMPA
+- Replaced input fields in About us section and Ribbon section to textareas to allow more content
+- Fixed issue with author name displaying on pages
+- Recommend Adblock Notify and Feedzy RSS plugins on the About Zerif page
 
 
 ### 1.8.4.1 - 27/04/2016
@@ -335,7 +255,7 @@ https://github.com/Codeinwp/zerif-lite/issues/241
  * Create wpglobus-config.json
 
 Configuration file for multilingual Customizer with WPGlobus.
-See https://www.wpglobus.com/documentation/how-to-translate-strings-in-wordpress-customizer/
+See http://www.wpglobus.com/documentation/how-to-translate-strings-in-wordpress-customizer/
  * Merge pull request #233 from tivnet/patch-1
 
 Create wpglobus-config.json
@@ -442,8 +362,7 @@ Typo
 
 
  * Changed new line separator to 
- from old mac separator 
-.
+ from old mac separator .
  * Updated about us section to be display in col-lg 4, 6 or 12 depending on what texts are set.
  * Fixed closing tag.
  * Updated contact us form style, error and success messages, made field required.

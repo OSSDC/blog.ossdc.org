@@ -26,7 +26,7 @@
 
     Licensed under the MIT license.
 
-    https://www.opensource.org/licenses/mit-license.php
+    http://www.opensource.org/licenses/mit-license.php
 
 
 
