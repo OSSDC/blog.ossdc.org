@@ -1607,7 +1607,7 @@ msgstr "Gratis vs. PRO"
 
 #: inc/customizer.php:40
 msgid ""
-"Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-"
+"Check out the <a href=\"https://themeisle.com/themes/zerif-pro-one-page-"
 "wordpress-theme/\">PRO version</a> for full control over the frontpage "
 "SECTIONS ORDER and the COLOR SCHEME!"
 msgstr ""
@@ -1617,16 +1617,16 @@ msgstr ""
 
 #: inc/customizer.php:48
 msgid ""
-"Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-"
+"Check out the <a href=\"https://themeisle.com/themes/zerif-pro-one-page-"
 "wordpress-theme/\">PRO version</a> to add a nice looking background video!"
 msgstr ""
-"¡Eche un vistazo a la <a href=\"http://themeisle.com/themes/zerif-pro-one-"
+"¡Eche un vistazo a la <a href=\"https://themeisle.com/themes/zerif-pro-one-"
 "page-wordpress-theme/\">versión PRO</a> para añadir un atractivo vídeo de "
 "fondo!"
 
 #: inc/customizer.php:56
 msgid ""
-"Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-"
+"Check out the <a href=\"https://themeisle.com/themes/zerif-pro-one-page-"
 "wordpress-theme/\">PRO version</a> to add a google maps section !"
 msgstr ""
 "Eche un vistazo a la <a href=\"https://themeisle.com/themes/zerif-pro-one-"
@@ -1635,7 +1635,7 @@ msgstr ""
 
 #: inc/customizer.php:64
 msgid ""
-"Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-"
+"Check out the <a href=\"https://themeisle.com/themes/zerif-pro-one-page-"
 "wordpress-theme/\">PRO version</a> to add a pricing section !"
 msgstr ""
 "Eche un vistazo a la <a href=\"https://themeisle.com/themes/zerif-pro-one-"
@@ -2189,8 +2189,8 @@ msgid "Zerif Lite"
 msgstr "Zerif Lite"
 
 #. Theme URI of the plugin/theme
-msgid "http://themeisle.com/themes/zerif-lite/"
-msgstr "http://themeisle.com/themes/zerif-lite/"
+msgid "https://themeisle.com/themes/zerif-lite/"
+msgstr "https://themeisle.com/themes/zerif-lite/"
 
 #. Description of the plugin/theme
 msgid ""
@@ -2215,5 +2215,5 @@ msgid "ThemeIsle"
 msgstr "ThemeIsle"
 
 #. Author URI of the plugin/theme
-msgid "http://themeisle.com"
-msgstr "http://themeisle.com"
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"

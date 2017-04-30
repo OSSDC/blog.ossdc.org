@@ -700,20 +700,20 @@ msgid "Meta"
 msgstr "Meta"
 
 #: inc/customizer.php:40
-msgid "Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> for full control over the frontpage SECTIONS ORDER and the COLOR SCHEME!"
-msgstr "Nu ratati <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">versiunea PRO</a> pentru a avea control suprem asupra ordinii sectiunilor de pe prima pagina si asupra schemei de culori!"
+msgid "Check out the <a href=\"https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> for full control over the frontpage SECTIONS ORDER and the COLOR SCHEME!"
+msgstr "Nu ratati <a href=\"https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">versiunea PRO</a> pentru a avea control suprem asupra ordinii sectiunilor de pe prima pagina si asupra schemei de culori!"
 
 #: inc/customizer.php:48
-msgid "Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a nice looking background video!"
-msgstr "Nu ratati <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">versiunea PRO</a> pentru a adauga in fundal un video!"
+msgid "Check out the <a href=\"https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a nice looking background video!"
+msgstr "Nu ratati <a href=\"https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">versiunea PRO</a> pentru a adauga in fundal un video!"
 
 #: inc/customizer.php:56
-msgid "Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a google maps section !"
-msgstr "Nu ratati <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">versiunea PRO</a> pentru a aduga o harta Google !"
+msgid "Check out the <a href=\"https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a google maps section !"
+msgstr "Nu ratati <a href=\"https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">versiunea PRO</a> pentru a aduga o harta Google !"
 
 #: inc/customizer.php:64
-msgid "Check out the <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a pricing section !"
-msgstr "Nu ratati <a href=\"http://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">versiunea PRO</a> in care puteti adauga o sectiune de preturi!"
+msgid "Check out the <a href=\"https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">PRO version</a> to add a pricing section !"
+msgstr "Nu ratati <a href=\"https://themeisle.com/themes/zerif-pro-one-page-wordpress-theme/\">versiunea PRO</a> in care puteti adauga o sectiune de preturi!"
 
 #: inc/customizer.php:78
 msgid "Sections order and Colors"
