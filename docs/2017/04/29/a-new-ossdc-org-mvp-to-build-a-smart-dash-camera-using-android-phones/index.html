@@ -1,232 +1,0 @@
-<!DOCTYPE html>
-
-<html lang="en-US">
-
-<head>
-<base href="https://ossdc.github.io/blog.ossdc" />
-
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="pingback" href="https://ossdc.github.io/blog.ossdc/xmlrpc.php">
-
-<title>A new OSSDC.org MVP to build a smart dash camera using Android phones &#8211; Open Source Self Driving Car Initiative</title>
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="Open Source Self Driving Car Initiative &raquo; Feed" href="https://ossdc.github.io/blog.ossdc/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Open Source Self Driving Car Initiative &raquo; Comments Feed" href="https://ossdc.github.io/blog.ossdc/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Open Source Self Driving Car Initiative &raquo; A new OSSDC.org MVP to build a smart dash camera using Android phones Comments Feed" href="https://ossdc.github.io/blog.ossdc/2017/04/29/a-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones/feed/" />
-<link rel='stylesheet' id='style-hightlight-css'  href='https://ossdc.github.io/blog.ossdc/wp-content/plugins/wp-github/css/prism.css' type='text/css' media='all' />
-<link rel='stylesheet' id='zerif_font-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C400italic%7CMontserrat%3A400%2C700%7CHomemade+Apple&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
-<link rel='stylesheet' id='zerif_font_all-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;subset=latin' type='text/css' media='all' />
-<link rel='stylesheet' id='zerif_bootstrap_style-css'  href='https://ossdc.github.io/blog.ossdc/wp-content/themes/zerif-lite/css/bootstrap.css' type='text/css' media='all' />
-<link rel='stylesheet' id='zerif_fontawesome-css'  href='https://ossdc.github.io/blog.ossdc/wp-content/themes/zerif-lite/css/font-awesome.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='zerif_style-css'  href='https://ossdc.github.io/blog.ossdc/wp-content/themes/zerif-lite/style.css' type='text/css' media='all' />
-<link rel='stylesheet' id='zerif_responsive_style-css'  href='https://ossdc.github.io/blog.ossdc/wp-content/themes/zerif-lite/css/responsive.css' type='text/css' media='all' />
-<!--[if lt IE 9]>
-<link rel='stylesheet' id='zerif_ie_style-css'  href='https://ossdc.github.io/blog.ossdc/wp-content/themes/zerif-lite/css/ie.css' type='text/css' media='all' />
-<![endif]-->
-<link rel='stylesheet' id='wp-github-css'  href='https://ossdc.github.io/blog.ossdc/wp-content/plugins/wp-github/css/wp-github.css' type='text/css' media='all' />
-<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc/wp-includes/js/jquery/jquery.js'></script>
-<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc/wp-includes/js/jquery/jquery-migrate.min.js'></script>
-<!--[if lt IE 9]>
-<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc/wp-content/themes/zerif-lite/js/html5.js'></script>
-<![endif]-->
-<link rel='https://api.w.org/' href='https://ossdc.github.io/blog.ossdc/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ossdc.github.io/blog.ossdc/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://ossdc.github.io/blog.ossdc/wp-includes/wlwmanifest.xml" /> 
-<link rel='prev' title='Hello world!' href='https://ossdc.github.io/blog.ossdc/2017/04/26/hello-world/' />
-<meta name="generator" content="WordPress 4.7.4" />
-<link rel="canonical" href="https://ossdc.github.io/blog.ossdc/2017/04/29/a-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones/" />
-<link rel='shortlink' href='https://ossdc.github.io/blog.ossdc/?p=18' />
-<link rel="alternate" type="application/json+oembed" href="https://ossdc.github.io/blog.ossdc/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fossdc.github.io%2F2017%2F04%2F29%2Fa-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://ossdc.github.io/blog.ossdc/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fossdc.github.io%2F2017%2F04%2F29%2Fa-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones%2F&#038;format=xml" />
-		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-		<style type="text/css" id="custom-background-css">
-body.custom-background { background-image: url("https://ossdc.github.io/blog.ossdc/wp-content/uploads/2017/04/winding-road-amanda-sandlin2.jpg"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
-</style>
-<link rel="icon" href="https://ossdc.github.io/blog.ossdc/wp-content/uploads/2017/04/ossdc-logo-150x150.png" sizes="32x32" />
-<link rel="icon" href="https://ossdc.github.io/blog.ossdc/wp-content/uploads/2017/04/ossdc-logo.png" sizes="192x192" />
-<link rel="apple-touch-icon-precomposed" href="https://ossdc.github.io/blog.ossdc/wp-content/uploads/2017/04/ossdc-logo.png" />
-<meta name="msapplication-TileImage" content="https://ossdc.github.io/blog.ossdc/wp-content/uploads/2017/04/ossdc-logo.png" />
-
-</head>
-
-
-	<body class="post-template-default single single-post postid-18 single-format-standard wp-custom-logo" >
-
-
-
-<div id="mobilebgfix">
-	<div class="mobile-bg-fix-img-wrap">
-		<div class="mobile-bg-fix-img"></div>
-	</div>
-	<div class="mobile-bg-fix-whole-site">
-
-
-<header id="home" class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
-
-	<div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner">
-
-		<div class="container">
-
-			<div class="navbar-header responsive-logo">
-
-				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-
-				<span class="sr-only">Toggle navigation</span>
-
-				<span class="icon-bar"></span>
-
-				<span class="icon-bar"></span>
-
-				<span class="icon-bar"></span>
-
-				</button>
-
-					<div class="navbar-brand">
-
-						<a href="https://ossdc.github.io/blog.ossdc/" class="custom-logo-link" rel="home" itemprop="url"><img width="166" height="166" src="https://ossdc.github.io/blog.ossdc/wp-content/uploads/2017/04/ossdc-logo.png" class="custom-logo" alt="" itemprop="logo" srcset="https://ossdc.github.io/blog.ossdc/wp-content/uploads/2017/04/ossdc-logo.png 166w, https://ossdc.github.io/blog.ossdc/wp-content/uploads/2017/04/ossdc-logo-150x150.png 150w" sizes="(max-width: 166px) 100vw, 166px" /></a>
-					</div> <!-- /.navbar-brand -->
-
-				</div> <!-- /.navbar-header -->
-
-				<nav class="navbar-collapse bs-navbar-collapse collapse" id="site-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-		<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
-		<ul class="nav navbar-nav navbar-right responsive-nav main-nav-list"><li class="page_item page-item-5 current_page_parent"><a href="https://ossdc.github.io/blog.ossdc/blog/">Blog</a></li>
-<li class="page_item page-item-4"><a href="https://ossdc.github.io/blog.ossdc/">Home page</a></li>
-<li class="page_item page-item-2"><a href="https://ossdc.github.io/blog.ossdc/sample-page/">Sample Page</a></li>
-</ul>	</nav>
-	
-		</div> <!-- /.container -->
-
-	</div> <!-- /#main-nav -->
-	<!-- / END TOP BAR -->
-<div class="clear"></div>
-
-</header> <!-- / END HOME SECTION  -->
-
-<div id="content" class="site-content">
-
-	<div class="container">
-				<div class="content-left-wrap col-md-9">
-						<div id="primary" class="content-area">
-				<main itemscope itemtype="http://schema.org/WebPageElement" itemprop="mainContentOfPage" id="main" class="site-main">
-				<article id="post-18" class="post-18 post type-post status-publish format-standard hentry category-uncategorized">	<header class="entry-header">		<h1 class="entry-title">A new OSSDC.org MVP to build a smart dash camera using Android phones</h1>		<div class="entry-meta">			<span class="posted-on">Posted on <a href="https://ossdc.github.io/blog.ossdc/2017/04/29/a-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones/" rel="bookmark"><time class="entry-date published" datetime="2017-04-29T19:45:00+00:00">April 29, 2017</time><time class="updated" datetime="2017-04-29T20:32:25+00:00">April 29, 2017</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://ossdc.github.io/blog.ossdc/author/marius/">Marius Slavescu</a></span></span>		</div><!-- .entry-meta -->	</header><!-- .entry-header -->	<div class="entry-content">		<p>The idea is to create an Android app that can be used to easily collect datasets for&nbsp;<a href="http://OSSDC.org">OSSDC.org</a>&nbsp;development/testing, also test in realtime&nbsp;simple ADAS functions.</p>
-<p>We will develop this app as part of our MVP 4 project:</p>
-<p><a href="https://github.com/OSSDC/OSSDC-DashCamera">https://github.com/OSSDC/OSSDC-DashCamera</a></p>
-<p><span style="line-height: 24px; font-size: 16px;">On powerful phones like this we can run pretty advanced algorithms, you can get it for less then $200 USD, has a great camera (no OIS though), IMU sensors and flagship Snapdragon 820 CPU/GPU:</span></p>
-<p><a href="http://m.gsmarena.com/leeco_le_max_2-8051.php">http://m.gsmarena.com/leeco_le_max_2-8051.php</a></p>
-<p><span style="line-height: 24px; font-size: 16px;">I got exactly this model:</span></p>
-<p><a href="http://m.geekbuying.com/item/LeTV-LeEco-Le-Max-2-X829-4GB-64GB-Smartphone---Gray-376308.html">http://m.geekbuying.com/item/LeTV-LeEco-Le-Max-2-X829-4GB-64GB-Smartphone&#8212;Gray-376308.html</a></p>
-<p><span style="line-height: 24px; font-size: 16px;">I forked several Android related projects, in https://github.com/OSSDC, for OBD2 integration, would be good to see how we pull them into a unified app, based on VideoSensors.</span></p>
-<p>Currently I use Torque and OpenCamera (because I can control focus, I&#8217;ll switch back to VideoSensors when we have that feature there) to collect datasets, but we need a simple setup/app to do this.</p>
-<p>Initially we should extend this project to add focus control, better exposure, and OBD2 Bluetooth collection integration:&nbsp;</p>
-<p><a href="https://github.com/OSSDC/VideoSensors">https://github.com/OSSDC/VideoSensors</a></p>
-<p>Then integrate something like:</p>
-<p><a href="https://github.com/OSSDC/android-robocar">https://github.com/OSSDC/android-robocar</a></p>
-<p><a href="https://twitter.com/GTARobotics/status/855952341627006976">https://twitter.com/GTARobotics/status/855952341627006976</a></p>
-<p>More integration ideas here, these could be used for (see OSSDC Slack) #toy_sdc #mid_size_sdc also:</p>
-<p><a href="https://platis.solutions/blog/2015/06/29/worlds-first-android-autonomous-vehicle/">https://platis.solutions/blog/2015/06/29/worlds-first-android-autonomous-vehicle/</a></p>
-<p>Also people and car detection like in Tensorflow Android demo:</p>
-<p><a href="https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android">https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android</a></p>
-<p>Join our efforts in Open Source Self Driving Car Initiative at:</p>
-<p><a href="http://OSSDC.org">http://OSSDC.org</a></p>
-<p>Follow me on Twitter for more up to date info at&nbsp;<a href="https://mobile.twitter.com/gtarobotics" style="font-size: 16px; line-height: 24px;">@gtarobotics</a></p>
-<p>To comment on this article go to:</p>
-<p><a href="https://github.com/OSSDC/blog.ossdc.org/issues/2">https://github.com/OSSDC/blog.ossdc.org/issues/2</a></p>
-	</div><!-- .entry-content -->	<footer class="entry-footer">		Bookmark the <a href="https://ossdc.github.io/blog.ossdc/2017/04/29/a-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones/" rel="bookmark">permalink</a>.			</footer><!-- .entry-footer --></article><!-- #post-## -->
-	<nav class="navigation post-navigation" role="navigation">
-		<h2 class="screen-reader-text">Post navigation</h2>
-		<div class="nav-links"><div class="nav-previous"><a href="https://ossdc.github.io/blog.ossdc/2017/04/26/hello-world/" rel="prev"><span class="meta-nav">&larr;</span> Hello world!</a></div></div>
-	</nav>
-<div id="comments" class="comments-area">
-
-	
-	
-		<div id="respond" class="comment-respond">
-		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2017/04/29/a-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="https://ossdc.github.io/blog.ossdc/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
-				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
-<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /></p>
-<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
-<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='18' id='comment_post_ID' />
-<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p>			</form>
-			</div><!-- #respond -->
-		<script type="text/javascript">
-		jQuery( document ).ready( function( $ ) {
-			$( '.comment-form, #registerform' ).append( '<input type="hidden" name="js-spam-prevention" value="957d5a266cc5ec90d615afc63721a49f"/>' );
-		} );
-	</script>
-	
-</div><!-- #comments -->				</main><!-- #main -->
-			</div><!-- #primary -->
-					</div><!-- .content-left-wrap -->
-					<div class="sidebar-wrap col-md-3 content-left-wrap">
-			<div id="secondary" class="widget-area" role="complementary">				<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://ossdc.github.io/blog.ossdc/">
-				<label>
-					<span class="screen-reader-text">Search for:</span>
-					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
-				</label>
-				<input type="submit" class="search-submit" value="Search" />
-			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">Recent Posts</h2>		<ul>
-					<li>
-				<a href="https://ossdc.github.io/blog.ossdc/2017/04/29/a-new-ossdc-org-mvp-to-build-a-smart-dash-camera-using-android-phones/">A new OSSDC.org MVP to build a smart dash camera using Android phones</a>
-						</li>
-					<li>
-				<a href="https://ossdc.github.io/blog.ossdc/2017/04/26/hello-world/">Hello world!</a>
-						</li>
-				</ul>
-		</aside>		<aside id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">Recent Comments</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow' class='url'>A WordPress Commenter</a></span> on <a href="https://ossdc.github.io/blog.ossdc/2017/04/26/hello-world/#comment-1">Hello world!</a></li></ul></aside><aside id="archives-2" class="widget widget_archive"><h2 class="widget-title">Archives</h2>		<ul>
-			<li><a href='https://ossdc.github.io/blog.ossdc/2017/04/'>April 2017</a></li>
-		</ul>
-		</aside><aside id="categories-2" class="widget widget_categories"><h2 class="widget-title">Categories</h2>		<ul>
-	<li class="cat-item cat-item-1"><a href="https://ossdc.github.io/blog.ossdc/category/uncategorized/" >Uncategorized</a>
-</li>
-		</ul>
-</aside><aside id="meta-2" class="widget widget_meta"><h2 class="widget-title">Meta</h2>			<ul>
-						<li><a href="https://ossdc.github.io/blog.ossdc/wp-login.php">Log in</a></li>
-			<li><a href="https://ossdc.github.io/blog.ossdc/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
-			<li><a href="https://ossdc.github.io/blog.ossdc/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
-			<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
-			</aside>			</div><!-- #secondary -->		</div><!-- .sidebar-wrap -->
-		</div><!-- .container -->
-
-</div><!-- .site-content -->
-
-
-<footer id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
-
-	
-	<div class="container">
-
-		
-		<div class="col-md-12 copyright"><div class="zerif-copyright-box"><a class="zerif-copyright" rel="nofollow">Zerif Lite </a>developed by <a class="zerif-copyright" href="https://themeisle.com"  target="_blank" rel="nofollow"> ThemeIsle</a></div></div>			</div> <!-- / END CONTAINER -->
-
-</footer> <!-- / END FOOOTER  -->
-
-
-	</div><!-- mobile-bg-fix-whole-site -->
-</div><!-- .mobile-bg-fix-wrap -->
-
-
-<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc/wp-content/plugins/wp-github//js/prism.js'></script>
-<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc/wp-content/themes/zerif-lite/js/bootstrap.min.js'></script>
-<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc/wp-content/themes/zerif-lite/js/jquery.knob.js'></script>
-<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc/wp-content/themes/zerif-lite/js/smoothscroll.js'></script>
-<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc/wp-content/themes/zerif-lite/js/scrollReveal.js'></script>
-<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc/wp-content/themes/zerif-lite/js/zerif.js'></script>
-<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc/wp-includes/js/comment-reply.min.js'></script>
-<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc/wp-includes/js/wp-embed.min.js'></script>
-<script>jQuery(function(){
-		var form = jQuery('form'),
-			code = jQuery('code', form),
-			highlightCode = function() { Prism.highlightElement(code); };
-		});
-	</script>
-
-</body>
-
-</html>
-<!--Generated by Endurance Page Cache-->
