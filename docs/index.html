@@ -1,57 +1,656 @@
-<!DOCTYPE html><html><head>
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
 <base href="https://ossdc.github.io/blog.ossdc.org" />
-<title>OSSD - Password Protected</title><style>                body {margin:0px;}
-                #custom_messaging_banner {background: #eb583c;padding: 7px 10px;color: white;border-bottom: solid 3px white;font-size:16px;position:relative;z-index:1;}
-                </style></head>
-					<style>
-						html, body {
 
-							text-align: center;
-							height: 100%;
-						}
-						body { background: url(https://ossdc.github.io/blog.ossdc.org/wp-content/plugins/hide-my-site/images/bg_dot.png) #d6d9e2; font-family:Arial;}
-						#form_wrap { background: url(https://ossdc.github.io/blog.ossdc.org/wp-content/plugins/hide-my-site/images/login_bg.png) no-repeat;display: block;margin: 0px auto;height: 450px;width: 403px; position: relative;top: 50%;margin-top: -225px; }
-						#form_wrap input[type=text], .enter_password {background: url(https://ossdc.github.io/blog.ossdc.org/wp-content/plugins/hide-my-site/images/input_back.png) no-repeat; position: absolute;top: 159px;left: 50px;
-							border: 0px;
-							width: 313px;
-							padding-left: 50px;
-							font-size: 15px;
-							line-height: 15px;
-							padding-top: 9px;
-							height:62px;
-							color:rgb(85, 86, 90);
-							opacity:.8;
-						}
 
-						#form_wrap input:active, #form_wrap input:focus {outline:0;opacity:1;}
-						#form_wrap button {background: url(https://ossdc.github.io/blog.ossdc.org/wp-content/plugins/hide-my-site/images/login_button.png) no-repeat top; width: 316px;
-							border: 0px;
-							height: 85px;
-							position: absolute;
-							top: 257px;
-							left: 43px;
-							cursor:pointer; opacity:.7;
-						}
-						#form_wrap button:hover {opacity:.8}
-						#form_wrap button:focus, #form_wrap button:active { opacity:1;}
-						#the_hint_wrap {position: absolute;top: 225px;color: white;left: 63px;width: 291px;text-shadow: 1px 1px 1px black;font-weight: normal;font-family: Arial;text-align: left;font-size: 14px;overflow: hidden;max-height: 33px;}
-						#the_hint_wrap div {display:inline-block;vertical-align: top;}
-						#the_hint_title {padding-right:5px;}
-						#the_hint {width: 183px;}
-					</style>
-						<!--[if IE]>
-						<style>
-						#form_wrap input[type=text], .enter_password {
-						  line-height:50px;    /* adjust value */
-						}
-						</style>
-						<![endif]-->
-					<body>
-                    	<div id='custom_messaging_banner'>This site is a private site. You must enter the access password to proceed.</div>						<div id='form_wrap'>
-							<form method=post>
-								<input type=password name='hwsp_motech' placeholder='Password' class='enter_password'>
-																<button type=submit></button>
-							</form>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://ossdc.github.io/blog.ossdc.org/xmlrpc.php">
+
+<title>Open Source Self Driving Car Initiative</title>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Open Source Self Driving Car Initiative &raquo; Feed" href="https://ossdc.github.io/blog.ossdc.org/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/ossdc.github.io\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='zerif_font-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C400italic%7CMontserrat%3A400%2C700%7CHomemade+Apple&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='zerif_font_all-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='zerif_bootstrap_style-css'  href='https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/css/bootstrap.css' type='text/css' media='all' />
+<link rel='stylesheet' id='zerif_fontawesome-css'  href='https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='zerif_style-css'  href='https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='zerif_responsive_style-css'  href='https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/css/responsive.css' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='zerif_ie_style-css'  href='https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/css/ie.css' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='jetpack_css-css'  href='https://ossdc.github.io/blog.ossdc.org/wp-content/plugins/jetpack/css/jetpack.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc.org/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc.org/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/js/html5.js'></script>
+<![endif]-->
+<link rel='https://api.w.org/' href='https://ossdc.github.io/blog.ossdc.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ossdc.github.io/blog.ossdc.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://ossdc.github.io/blog.ossdc.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.4" />
+<link rel="canonical" href="https://ossdc.github.io/blog.ossdc.org/" />
+<link rel='shortlink' href='http://wp.me/P8Gg3z-4' />
+<link rel="alternate" type="application/json+oembed" href="https://ossdc.github.io/blog.ossdc.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fossdc.github.io%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://ossdc.github.io/blog.ossdc.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fossdc.github.io%2F&#038;format=xml" />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'>
+<link rel='dns-prefetch' href='//i0.wp.com'>
+<link rel='dns-prefetch' href='//i1.wp.com'>
+<link rel='dns-prefetch' href='//i2.wp.com'>
+<style type='text/css'>img#wpstats{display:none}</style><style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("https://ossdc.github.io/blog.ossdc.org/wp-content/uploads/2017/05/winding-road-amanda-sandlin2.jpg"); background-position: center center; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+</style>
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Open Source Self Driving Car Initiative" />
+<meta property="og:url" content="https://ossdc.github.io/blog.ossdc.org/" />
+<meta property="og:site_name" content="Open Source Self Driving Car Initiative" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:image" content="https://i1.wp.com/ossdc.github.io/wp-content/uploads/2017/05/ossdc-logo.png?fit=166%2C166" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Visit the post for more." />
+<link rel="icon" href="https://i1.wp.com/ossdc.github.io/wp-content/uploads/2017/05/ossdc-logo.png?fit=32%2C32" sizes="32x32" />
+<link rel="icon" href="https://i1.wp.com/ossdc.github.io/wp-content/uploads/2017/05/ossdc-logo.png?fit=166%2C166" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://i1.wp.com/ossdc.github.io/wp-content/uploads/2017/05/ossdc-logo.png?fit=166%2C166" />
+<meta name="msapplication-TileImage" content="https://i1.wp.com/ossdc.github.io/wp-content/uploads/2017/05/ossdc-logo.png?fit=166%2C166" />
+
+</head>
+
+
+	<body class="home page-template-default page page-id-4 custom-background wp-custom-logo" >
+
+
+
+<div id="mobilebgfix">
+	<div class="mobile-bg-fix-img-wrap">
+		<div class="mobile-bg-fix-img"></div>
+	</div>
+	<div class="mobile-bg-fix-whole-site">
+
+
+<header id="home" class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+	<div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner">
+
+		<div class="container">
+
+			<div class="navbar-header responsive-logo">
+
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+
+				<span class="sr-only">Toggle navigation</span>
+
+				<span class="icon-bar"></span>
+
+				<span class="icon-bar"></span>
+
+				<span class="icon-bar"></span>
+
+				</button>
+
+					<div class="navbar-brand">
+
+						<a href="https://ossdc.github.io/blog.ossdc.org/" class="custom-logo-link" rel="home" itemprop="url"><img width="166" height="166" src="https://i1.wp.com/ossdc.github.io/wp-content/uploads/2017/05/ossdc-logo.png?fit=166%2C166" class="custom-logo" alt="" itemprop="logo" srcset="https://i1.wp.com/ossdc.github.io/wp-content/uploads/2017/05/ossdc-logo.png?w=166 166w, https://i1.wp.com/ossdc.github.io/wp-content/uploads/2017/05/ossdc-logo.png?resize=150%2C150 150w" sizes="(max-width: 166px) 100vw, 166px" /></a>
+					</div> <!-- /.navbar-brand -->
+
+				</div> <!-- /.navbar-header -->
+
+				<nav class="navbar-collapse bs-navbar-collapse collapse" id="site-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+		<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+		<ul class="nav navbar-nav navbar-right responsive-nav main-nav-list"><li class="page_item page-item-5"><a href="https://ossdc.github.io/blog.ossdc.org/blog/">Blog</a></li>
+<li class="page_item page-item-4 current_page_item"><a href="https://ossdc.github.io/blog.ossdc.org/">Home page</a></li>
+<li class="page_item page-item-2"><a href="https://ossdc.github.io/blog.ossdc.org/sample-page/">Sample Page</a></li>
+</ul>	</nav>
+	
+		</div> <!-- /.container -->
+
+	</div> <!-- /#main-nav -->
+	<!-- / END TOP BAR --><div class="home-header-wrap"><div class="header-content-wrap"><div class="container"><h1 class="intro-text">Open Source Self Driving Car Initiative</h1><div class="buttons"><a href="https://github.com/ossdc" class="btn btn-primary custom-button red-btn">Github</a><a href="https://ossdc.slack.com/" class="btn btn-primary custom-button green-btn">Slack </a></div></div></div><!-- .header-content-wrap --><div class="clear"></div></div>
+</header> <!-- / END HOME SECTION  -->
+<div id="content" class="site-content">
+
+
+<section class="focus" id="focus">
+
+	
+	<div class="container">
+
+		<!-- SECTION HEADER -->
+
+		<div class="section-header">
+
+			<!-- SECTION TITLE AND SUBTITLE -->
+
+			<h2 class="dark-text">Get Involved</h2>
+		</div>
+
+		<div class="row">
+
+				<span id="ctup-ads-widget-1" class="">
+			<div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+
+										<a href="#" class="service-icon">
+															<span class="sr-only">
+			                    Go to			                    Slack		                    </span>
+								
+							<i class="pixeden"
+							   style="background:url(https://ossdc.github.io/blog.ossdc.org/wp-content/uploads/2017/05/slack.png) no-repeat center;width:100%; height:100%;"></i>
+						</a>
+						
+
+				
+				<h3 class="red-border-bottom">Slack</h3>
+				<!-- FOCUS HEADING -->
+
+				<p>We invite everyone to join the conversation and participate in OSSDC Slack team
+<br>
+If you have not registered yet on OSSDC Slack, here you can get an invitation to join the team: <a href="http://ossdc.org/join.php" target="_blank">here</a>.</p>
+			</div>
+
+			</span><span id="ctup-ads-widget-2" class="">
+			<div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+
+										<a href="#" class="service-icon">
+															<span class="sr-only">
+			                    Go to			                    Github		                    </span>
+								
+							<i class="pixeden"
+							   style="background:url(https://ossdc.github.io/blog.ossdc.org/wp-content/uploads/2017/05/github-octacat-300x249.png) no-repeat center;width:100%; height:100%;"></i>
+						</a>
+						
+
+				
+				<h3 class="red-border-bottom">Github</h3>
+				<!-- FOCUS HEADING -->
+
+				<p>The OSSDC Organization and Source Code is managed completely in an open way on GitHub at: <a href="https://github.com/OSSDC" target="_blank">github.com/OSSDC</a></p>
+			</div>
+
+			</span>
+		</div>
+
+	</div> <!-- / END CONTAINER -->
+
+	
+</section>  <!-- / END FOCUS SECTION -->
+
+
+<section class="about-us" id="aboutus">
+
+	
+	<div class="container">
+
+		<!-- SECTION HEADER -->
+
+		<div class="section-header">
+
+			
+		</div><!-- / END SECTION HEADER -->
+
+		<!-- 3 COLUMNS OF ABOUT US-->
+
+		<div class="row">
+
+			<!-- COLUMN 1 - BIG MESSAGE ABOUT THE COMPANY-->
+
+		
+	</div> <!-- / END 3 COLUMNS OF ABOUT US-->
+
+	<!-- CLIENTS -->
+	<div class="our-clients"></div><div class="client-list"><div data-scrollreveal="enter right move 60px after 0.00s over 2.5s"><span id="zerif_clients-widget-1">
+			<a href="#">
+				<img src="https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/images/clients1.png" alt="Client">			</a>
+
+			</span><span id="zerif_clients-widget-2">
+			<a href="#">
+				<img src="https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/images/clients2.png" alt="Client">			</a>
+
+			</span><span id="zerif_clients-widget-3">
+			<a href="#">
+				<img src="https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/images/clients3.png" alt="Client">			</a>
+
+			</span><span id="zerif_clients-widget-4">
+			<a href="#">
+				<img src="https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/images/clients4.png" alt="Client">			</a>
+
+			</span><span id="zerif_clients-widget-5">
+			<a href="#">
+				<img src="https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/images/clients5.png" alt="Client">			</a>
+
+			</span></div></div> 
+	</div> <!-- / END CONTAINER -->
+
+	
+</section> <!-- END ABOUT US SECTION -->
+
+<section class="our-team" id="team"><div class="container"><div class="section-header"></div><div class="row" data-scrollreveal="enter left after 0s over 0.1s"><span id="zerif_team-widget-1" class="">
+			<div class="col-lg-3 col-sm-3 team-box">
+
+				<div class="team-member" tabindex="0">
+
+					
+
+						<figure class="profile-pic">
+
+							<img src="https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/images/team1.png" alt=""/>
+
+						</figure>
+						
+					<div class="member-details">
+
+						
+							<h3 class="dark-text red-border-bottom">ASHLEY SIMMONS</h3>
+
+						
+						
+							<div
+								class="position">Project Manager</div>
+
+						
+					</div>
+
+					<div class="social-icons">
+
+						<ul>
+							
+															<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Facebook account of				                            ASHLEY SIMMONS			                            </span>
+																					<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Twitter account of				                            ASHLEY SIMMONS			                            </span>
+																					<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Behance account of				                            ASHLEY SIMMONS			                            </span>
+																					<i class="fa fa-behance"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Dribble account of				                            ASHLEY SIMMONS			                            </span>
+																					<i class="fa fa-dribbble"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Linkedin account of				                            ASHLEY SIMMONS			                            </span>
+																					<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+								
+						</ul>
+
+					</div>
+
+											<div class="details">
+
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus, eros at accumsan auctor, felis eros condimentum quam, non porttitor est urna vel neque
 						</div>
-					</body></html>
+					
+				</div>
+
+			</div>
+
+			</span><span id="zerif_team-widget-2" class="">
+			<div class="col-lg-3 col-sm-3 team-box">
+
+				<div class="team-member" tabindex="0">
+
+					
+
+						<figure class="profile-pic">
+
+							<img src="https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/images/team2.png" alt=""/>
+
+						</figure>
+						
+					<div class="member-details">
+
+						
+							<h3 class="dark-text red-border-bottom">TIMOTHY SPRAY</h3>
+
+						
+						
+							<div
+								class="position">Art Director</div>
+
+						
+					</div>
+
+					<div class="social-icons">
+
+						<ul>
+							
+															<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Facebook account of				                            TIMOTHY SPRAY			                            </span>
+																					<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Twitter account of				                            TIMOTHY SPRAY			                            </span>
+																					<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Behance account of				                            TIMOTHY SPRAY			                            </span>
+																					<i class="fa fa-behance"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Dribble account of				                            TIMOTHY SPRAY			                            </span>
+																					<i class="fa fa-dribbble"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Linkedin account of				                            TIMOTHY SPRAY			                            </span>
+																					<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+								
+						</ul>
+
+					</div>
+
+											<div class="details">
+
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus, eros at accumsan auctor, felis eros condimentum quam, non porttitor est urna vel neque
+						</div>
+					
+				</div>
+
+			</div>
+
+			</span><span id="zerif_team-widget-3" class="">
+			<div class="col-lg-3 col-sm-3 team-box">
+
+				<div class="team-member" tabindex="0">
+
+					
+
+						<figure class="profile-pic">
+
+							<img src="https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/images/team3.png" alt=""/>
+
+						</figure>
+						
+					<div class="member-details">
+
+						
+							<h3 class="dark-text red-border-bottom">TONYA GARCIA</h3>
+
+						
+						
+							<div
+								class="position">Account Manager</div>
+
+						
+					</div>
+
+					<div class="social-icons">
+
+						<ul>
+							
+															<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Facebook account of				                            TONYA GARCIA			                            </span>
+																					<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Twitter account of				                            TONYA GARCIA			                            </span>
+																					<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Behance account of				                            TONYA GARCIA			                            </span>
+																					<i class="fa fa-behance"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Dribble account of				                            TONYA GARCIA			                            </span>
+																					<i class="fa fa-dribbble"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Linkedin account of				                            TONYA GARCIA			                            </span>
+																					<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+								
+						</ul>
+
+					</div>
+
+											<div class="details">
+
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus, eros at accumsan auctor, felis eros condimentum quam, non porttitor est urna vel neque
+						</div>
+					
+				</div>
+
+			</div>
+
+			</span><span id="zerif_team-widget-4" class="">
+			<div class="col-lg-3 col-sm-3 team-box">
+
+				<div class="team-member" tabindex="0">
+
+					
+
+						<figure class="profile-pic">
+
+							<img src="https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/images/team4.png" alt=""/>
+
+						</figure>
+						
+					<div class="member-details">
+
+						
+							<h3 class="dark-text red-border-bottom">JASON LANE</h3>
+
+						
+						
+							<div
+								class="position">Business Development</div>
+
+						
+					</div>
+
+					<div class="social-icons">
+
+						<ul>
+							
+															<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Facebook account of				                            JASON LANE			                            </span>
+																					<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Twitter account of				                            JASON LANE			                            </span>
+																					<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Behance account of				                            JASON LANE			                            </span>
+																					<i class="fa fa-behance"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Dribble account of				                            JASON LANE			                            </span>
+																					<i class="fa fa-dribbble"></i>
+									</a>
+								</li>
+																<li>
+									<a href="#"
+									   target="_self">
+																					<span class="sr-only">
+				                            Linkedin account of				                            JASON LANE			                            </span>
+																					<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+								
+						</ul>
+
+					</div>
+
+											<div class="details">
+
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus, eros at accumsan auctor, felis eros condimentum quam, non porttitor est urna vel neque
+						</div>
+					
+				</div>
+
+			</div>
+
+			</span></div> </div></section><section class="latest-news" id="latestnews"><div class="container"><div class="section-header"><h2 class="dark-text">Latest news</h2></div><!-- END .section-header --><div class="clear"></div><div id="carousel-homepage-latestnews" class="carousel slide" data-ride="carousel"><div class="carousel-inner" role="listbox"><div class="item active" role="option"><div class="col-sm-3 latestnews-box"><div class="latestnews-img"><a class="latestnews-img-a" href="https://ossdc.github.io/blog.ossdc.org/2017/04/30/hello-world/" title="Hello world!"><img src="https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/images/blank-latestposts.png" alt="Hello world!" /></a></div><div class="latesnews-content"><h3 class="latestnews-title"><a href="https://ossdc.github.io/blog.ossdc.org/2017/04/30/hello-world/" title="Hello world!">Hello world!</a></h3><p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+</div></div><!-- .latestnews-box"> --><div class="clear"></div></div></div><!-- .carousel-inner --><a class="left carousel-control" href="#carousel-homepage-latestnews" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a><a class="right carousel-control" href="#carousel-homepage-latestnews" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a></div><!-- #carousel-homepage-latestnews --></div><!-- .container --></section>			<section class="contact-us" id="contact">
+				<div class="container">
+					<!-- SECTION HEADER -->
+					<div class="section-header">
+
+											</div>
+					<!-- / END SECTION HEADER -->
+
+					
+				</div> <!-- / END CONTAINER -->
+
+			</section> <!-- / END CONTACT US SECTION-->
+			
+</div><!-- .site-content -->
+
+
+<footer id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+
+	
+	<div class="container">
+
+		
+		<div class="col-md-12 copyright"><div class="zerif-copyright-box"><a class="zerif-copyright" rel="nofollow">Zerif Lite </a>developed by <a class="zerif-copyright" href="https://themeisle.com"  target="_blank" rel="nofollow"> ThemeIsle</a></div></div>			</div> <!-- / END CONTAINER -->
+
+</footer> <!-- / END FOOOTER  -->
+
+
+	</div><!-- mobile-bg-fix-whole-site -->
+</div><!-- .mobile-bg-fix-wrap -->
+
+
+	<div style="display:none">
+	</div>
+<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc.org/wp-content/plugins/jetpack/modules/photon/photon.js'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc.org/wp-content/plugins/jetpack/modules/wpgroho.js'></script>
+<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/js/jquery.knob.js'></script>
+<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/js/smoothscroll.js'></script>
+<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/js/scrollReveal.js'></script>
+<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc.org/wp-content/themes/zerif-lite/js/zerif.js'></script>
+<script type='text/javascript' src='https://ossdc.github.io/blog.ossdc.org/wp-includes/js/wp-embed.min.js'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201718.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.9',blog:'128282189',post:'4',tz:'0',srv:'ossdc.github.io'} ]);
+	_stq.push([ 'clickTrackerInit', '128282189', '4' ]);
+</script>
+
+
+</body>
+
+</html>
 <!--Generated by Endurance Page Cache-->
